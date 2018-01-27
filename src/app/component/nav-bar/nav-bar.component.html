@@ -1,0 +1,13 @@
+<nav class="navbar navbar-inverse fixed-top color-frame">
+  <div class="row">
+      <div class="col-12 col-md-4 text-md-left text-center">
+          <a class="navbar-brand" href="#">StoreFood </a>
+      </div>
+      <div class="col-10 col-md-4">
+          <input class="form-control" type="text" placeholder="Buscar producto" [(ngModel)]="filter" (keyup)="filterProduct()">
+      </div>
+      <div class="col-2 col-md-4 text-right">
+          <i class="fa fa-2x fa-shopping-cart"></i>
+      </div>
+  </div>
+</nav>

@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-md-3" *ngFor="let products of products">
+    <div class="card top">
+      <div style="width: 100%; height: 222px;">
+        <img class="card-img-top img-fluid" style="height: 100% !important" [src]="products.img" [alt]="products.name">
+      </div>
+
+      <div class="card-block" style="width: 100% !important;height: 180px;">
+        <h4 class="card-title">{{products.name}}</h4>
+        <h6 class="card-title">${{products.price }}</h6>
+        <p class="card-text">{{products.description}}</p>
+      </div>
+      <div class="card-footer text-muted">
+        <div class="row justify-content-md-center">
+          <div class="col-12 text-center align-self-end">
+            <button type="button" class="btn btn-outline-primary btn-block">
+              Agregar al carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<div class="row top-filters navbar-toggleable-md">
+  <button class="navbar-toggler text-filter  navbar-toggler-center btn-filters" type="button" data-toggle="collapse" data-target="#FilterColapse">
+    Filtros
+    <i class="fa fa-fw fa-filter color-icon-toogler"></i>
+  </button>
+  <div id="FilterColapse" class="col-12  top navbar-collapse collapse">
+    <div class="row">
+      <div class="col-12 col-md-3 col-lg-12"  *ngIf="filter.length > 0">
+        <div class="card">
+          <h5 class="card-header">Filtrado por...</h5>
+          <div class="card-body">
+            <div class="input-group"></div>
+            <div class="alert alert-info" *ngFor="let filter of filter" role="alert">
+              {{filter.name}}
+              <button type="button" class="close" (click)="deleteFilter(filter)" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-12">
+        <div class="card" *ngIf="filterCategories.length > 0">
+          <h5 class="card-header">Categorías</h5>
+          <div class="card-body">
+            <div class="input-group"></div>
+            <div class="col-lg-6" *ngFor="let filterCategories of filterCategories" style="margin-top:5px;">
+              <button type="button" class="btn btn-link" (click)="addFilters(filterCategories)">{{filterCategories.name}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-12">
+        <div class="card" *ngIf="filterPrices.length > 0">
+          <h5 class="card-header">Precios</h5>
+          <div class="card-body">
+            <div class="input-group"></div>
+            <div class="col-lg-6" *ngFor="let filterPrices of filterPrices" style="margin-top:5px;">
+              <button type="button" class="btn btn-link" (click)="addFilters(filterPrices)">
+                {{filterPrices.name}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-12">
+        <div class="card" *ngIf="filterStocks.length > 0">
+          <h5 class="card-header">Más</h5>
+          <div class="card-body">
+            <div class="input-group"></div>
+            <div class="col-lg-6" *ngFor="let filterStocks of filterStocks" style="margin-top:5px;">
+              <button type="button" class="btn btn-link" (click)="addFilters(filterStocks)">
+                {{filterStocks.name}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

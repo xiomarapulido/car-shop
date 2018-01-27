@@ -1,0 +1,185 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Bebidas"
+      },
+      {
+        "id": 2,
+        "name": "Postres"
+      },
+      {
+        "id": 3,
+        "name": "Carnes"
+      },
+      {
+        "id": 4,
+        "name": "Lácteos"
+      }
+      ,
+      {
+        "id": 5,
+        "name": "Rápidas"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Coca-cola",
+        "price": "2.500",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          1
+        ],
+        "img": "assets/Img/cocacola.jpg",
+        "description": "Coca-Cola 1.5, refrescante y la mejor compañía para tus comidas."
+      },
+      {
+        "id": 2,
+        "name": "Jugo de naranja",
+        "price": "3.500",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          1
+        ],
+        "img": "assets/Img/jugo.jpg",
+        "description": "Completamente natural y refrescante."
+      },
+      {
+        "id": 3,
+        "name": "Limonada",
+        "price": "4.500",
+        "available": false,
+        "Best_Seller": true,
+        "categories": [
+          1
+        ],
+        "img": "assets/Img/limonada.jpg",
+        "description": "Completamente natural y refrescante con hierbabuena."
+      },
+      {
+        "id": 4,
+        "name": "Torta de chocolate",
+        "price": "5.700",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          2
+        ],
+        "img": "assets/Img/tortaChocolate.jpg",
+        "description": "Torta de chocolate, lo ideal para calmar tus antojos."
+      },
+      {
+        "id": 5,
+        "name": "Torta de fresas",
+        "price": "5.100",
+        "available": true,
+        "Best_Seller": false,
+        "categories": [
+          2
+        ],
+        "img": "assets/Img/tortaFresas.jpg",
+        "description": "Torta de fresas, natural y ligera."
+      },
+      {
+        "id": 6,
+        "name": "Flan de fresa",
+        "price": "11.000",
+        "available": false,
+        "Best_Seller": true,
+        "categories": [
+          2,
+          4
+        ],
+        "img": "assets/Img/flan.jpg",
+        "description": "Lleva esta especial promoción, dos flans de fresa al price de uno."
+      },
+      {
+        "id": 7,
+        "name": "Churrasco",
+        "price": "45.000",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          3
+        ],
+        "img": "assets/Img/churrasco.jpg",
+        "description": "Churrasco con papas y gaseosa."
+      },
+      {
+        "id": 8,
+        "name": "Churrasco de pollo",
+        "price": "45.000",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          3
+        ],
+        "img": "assets/Img/churrascoPollo.jpg",
+        "description": "Churrasco de pollo con papas y gaseosa."
+      },
+      {
+        "id": 9,
+        "name": "Pollo al horno",
+        "price": "60.000",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          3
+        ],
+        "img": "assets/Img/polloHorno.jpg",
+        "description": "Pollo horneado con las ejoes especias."
+      },
+      {
+        "id": 10,
+        "name": "Hamburguesa de carne sencilla",
+        "price": "12.000",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          5
+        ],
+        "img": "assets/Img/hamburgesaSencilla.jpg",
+        "description": "Hamburguesa de carne sencilla en cobo."
+      },
+      {
+        "id": 10,
+        "name": "Hamburguesa de triple carne",
+        "price": "40.400",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          5
+        ],
+        "img": "assets/Img/hamburguesaGrande.jpg",
+        "description": "Hamburguesa de cerdo,res y pollo extra grande en cobo."
+      },
+      {
+        "id": 11,
+        "name": "Perro caliente americano",
+        "price": "8.000",
+        "available": true,
+        "Best_Seller": true,
+        "categories": [
+          5
+        ],
+        "img": "assets/Img/perro.png",
+        "description": "Perro caliente americano en combo."
+      },
+      {
+        "id": 12,
+        "name": "Papas frítas",
+        "price": "4.000",
+        "available": true,
+        "Best_Seller": false,
+        "categories": [
+          5
+        ],
+        "img": "assets/Img/papas.jpg",
+        "description": "Porción de Papas frítas."
+      }
+    ]
+  }
+  
